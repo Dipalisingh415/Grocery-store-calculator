@@ -1,0 +1,29 @@
+#grocery store calculator
+a=int(input("Press 1 for doing Sum , Press 2 for checking price by giving Quantity, Press 3 for division , Press 4 for subtraction"))
+if (a == 1):
+    b=int(input("Enter first item  : "))
+    c=int(input("Enter second item : "))
+    d=b+c
+    print("Sum is : ",d)
+
+if ( a == 2):
+  e=int(input("Enter quantity of item : "))
+  f=int(input("Enter price of item : "))
+  g=e*f
+  print("Your bill is",g)
+
+if (a == 3):
+  h=int(input("Enter first number : "))
+  i=int(input("Enter second number : "))
+  j=h-i
+  print("Enter number after subtraction : ",j)
+
+if (a == 4):
+
+  k=int(input("Enter first number : "))
+  l=int(input("Enter second number : "))
+  m=k/l
+  print("Number after division : ",m)
+
+else:
+  print("Thank you for shopping")
